@@ -40,8 +40,9 @@ public class Homework {
 		}
 		intersection.addAll(F50k);
 	    intersection.retainAll(F50a);
-		System.out.println("F50k kumesi: " + F50k);
-		System.out.println("F50a kumesi: " + F50a);
-	    System.out.println("F50k ve F50a kumelerinin kesisimleri: " + intersection);
+		System.out.println("F50k kümesi: " + F50k);
+		System.out.println("F50a kümesi: " + F50a);
+	    System.out.println("F50k ve F50a kümelerinin kesişimleri: " + intersection);
+	    System.out.println(intersection.size());
 	}
 }
