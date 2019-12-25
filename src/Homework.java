@@ -1,3 +1,5 @@
+import org.jetbrains.annotations.Contract;
+
 import java.lang.Math;
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -5,6 +7,7 @@ import java.util.List;
 import java.util.Set; 
 
 interface Lambda{
+	@Contract(pure = true)
 	public static boolean asalBul(int n) {
 	    for(int i = 2;i < n; i++) {
 	        if(n%i == 0)
