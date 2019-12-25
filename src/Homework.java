@@ -44,5 +44,4 @@ public class Homework {
 		System.out.println("F50a kumesi: " + F50a);
 	    System.out.println("F50k ve F50a kumelerinin kesisimleri: " + intersection);
 	}
-
 }
